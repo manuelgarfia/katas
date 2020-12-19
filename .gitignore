@@ -8,3 +8,4 @@ dist
 !.yarn/releases
 !.yarn/plugins
 .pnp.*
+.Ds_Store
