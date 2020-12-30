@@ -8,7 +8,7 @@ describe('fizzBuzz',()=>{
 
     const actual= fizzBuzz(given)
 
-    expect(actual).toEqual(1)
+    expect(actual).toEqual([1])
   })
 
 
