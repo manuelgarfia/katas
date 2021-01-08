@@ -24,6 +24,14 @@ describe('Concatenated arrays', () => {
     expect(actual).toEqual([1, 2, 3, 4, 5, 6, 7, 8])
   })
 
+  it('should return 3 arrays or more  concatenated', () => {
+    const concatArray = [1, 2, 3, 4]
+    const concatArray2 = [5, 6, 7, 8]
+    const concatArray3 = [9, 10, 11, 12]
+
+    let actual = getConcatenatedArrays(concatArray, concatArray2, concatArray3)
+    expect(actual).toEqual([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
+  })
   it('should return 2 arrays using spread method', () => {
     const concatArray = [1, 2, 3, 4]
     const concatArray2 = [5, 6, 7, 8]
